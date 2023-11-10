@@ -1,0 +1,41 @@
+/* VARIABLES */
+
+/* :root {
+
+} */
+
+
+/* GÉNÉRAL */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Asap', sans-serif;
+  font-family: 'Parisienne', cursive;
+}
+
+
+/* MAIN  */
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 100vh;
+  width: 100vw;
+
+}
+

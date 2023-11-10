@@ -1,0 +1,100 @@
+/* VARIABLES */
+
+/* :root {
+
+} */
+
+
+/* GÉNÉRAL */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+}
+
+
+/* MAIN  */
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/wall_dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-top: auto;
+  /* padding: 5rem 0rem 0rem 8rem; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding-top: 8rem;
+  padding-left: 4rem;; */
+
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  width: 66vw;
+  height: 33vh;
+  margin: auto;
+  font-size: 8rem;
+  /* background-color: plum; */
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(105, 105, 255),
+    0 0 82px rgb(105, 105, 255),
+    0 0 92px rgb(105, 105, 255),
+    0 0 102px rgb(105, 105, 255),
+    0 0 151px rgb(105, 105, 255),;
+justify-content: space-between;
+}
+
+.main__title--level-1 {
+  align-self: start;
+
+}
+
+.main__title--level-2 {
+  /* align-self: center; */
+  font-size: 10rem;
+  padding-left: 10rem;
+}
+
+.main__title--level-3 {
+  /* align-self: end; */
+  font-size: 12rem;
+  padding-left: 20rem;
+}
+
+
+
+
+

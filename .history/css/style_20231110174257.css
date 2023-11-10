@@ -1,0 +1,23 @@
+/* VARIABLES */
+
+/* :root {
+
+} */
+
+
+/* GÉNÉRAL */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+}
