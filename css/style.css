@@ -25,6 +25,8 @@ body {
 
 h1 {
   font-family: 'Dosis', sans-serif;
+  -webkit-animation: text-flicker-in-glow 4s both;
+  animation: text-flicker-in-glow 4s both;
 }
 
 
@@ -57,7 +59,6 @@ h1 {
   height: 50vh;
   margin: auto;
   font-size: 8rem;
-  /* background-color: plum; */
   color: #fff;
   text-shadow:
     0 0 7px #fff,
@@ -144,3 +145,43 @@ justify-content: space-between;
   }
   
 }
+
+
+
+
+
+/* ANIMATION  */
+
+/* @keyframes duration | timing-function | delay |
+   iteration-count | direction | fill-mode | play-state | name */
+
+.main__title--blink {
+  animation: toto 1s linear infinite;
+}
+
+@keyframes toto {
+  
+  10% {
+    opacity: 0.8;
+  }
+  12% {
+    opacity: 0.6;
+  }
+  18% {
+    opacity: 0.9;
+  }
+  21% {
+    opacity: 0.9;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+}
+
